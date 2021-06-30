@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+.solution-section-01 {
+    padding-top: 100px;
+    padding-left: 15%;
+    background: url(../../visual/images/solution03.jpg) 50% 8% no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: #fff;
+}
+.solution-section-01 h2 {
+    margin-top: 100px;
+    font-size: 36px;
+}
+.solution-section-01 p {
+    margin-top: 40px;
+    font-size: 20px;
+}
+/* solution-section 공통 */
+.solution-section {
+    padding: 100px 0;
+}
+.solution-section .inner {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+/* solution-section-02 */
+.solution-section-02 .inner .content-wrap {
+    display: flex;
+}
+.solution-section-02 .inner .content-wrap .left {
+    width: 25%;
+    border-right: 1px solid #dbdbdb;
+}
+.solution-section-02 .inner .content-wrap .left h3 {
+    font-size: 36px;
+    color: #333;
+    padding-top: 10px;
+}
+.solution-section-02 .inner .content-wrap .right {
+    width: 75%;
+}
+.solution-section-02 .inner .content-wrap .right .content-box {
+    float: left;
+    width: 33.3333333333333%;
+    height: 380px;
+    padding: 20px;
+}
+.solution-section-02 .inner .content-wrap .right .content-box .img-box {
+    width: 100%;
+}
+.solution-section-02 .inner .content-wrap .right .content-box .img-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.solution-section-02 .inner .content-wrap .right .content-box .description {
+    padding: 10px;
+}
+.solution-section-02 .inner .content-wrap .right .content-box .description .title {
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    line-height: 1.43em;
+}
+.solution-section-02 .inner .content-wrap .right .content-box .description p {
+    margin-top: 5px;
+    line-height: 1.43em;
+}
+/* solution-section-03 */
+.solution-section-03 {
+    background-color: #f4f7f3;
+}
+.solution-section-03 .inner .content-wrap {
+    display: flex;
+}
+.solution-section-03 .inner .content-wrap .left {
+    width: 25%;
+    border-right: 1px solid #dbdbdb;
+}
+.solution-section-03 .inner .content-wrap .left h3 {
+    font-size: 36px;
+    color: #333;
+    padding-top: 10px;
+}
+.solution-section-03 .inner .content-wrap .right {
+    width: 75%;
+}
+.solution-section-03 .inner .content-wrap .right .content-box {
+    float: left;
+    width: 33.3333333333333%;
+    height: 380px;
+    padding: 20px;
+}
+.solution-section-03 .inner .content-wrap .right .content-box .img-box {
+    width: 100%;
+}
+.solution-section-03 .inner .content-wrap .right .content-box .img-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.solution-section-03 .inner .content-wrap .right .content-box .description {
+    padding: 10px;
+}
+.solution-section-03 .inner .content-wrap .right .content-box .description .title {
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    line-height: 1.43em;
+}
+.solution-section-03 .inner .content-wrap .right .content-box .description p {
+    margin-top: 5px;
+    line-height: 1.43em;
+}
+
+@media screen and (max-width: 1400px) {
+    .solution-section-02 .inner,
+    .solution-section-03 .inner {
+        padding: 0 40px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .solution-section-02 .inner .content-wrap,
+    .solution-section-03 .inner .content-wrap {
+        display: block;
+    }
+    .solution-section-02 .inner .content-wrap .left,
+    .solution-section-03 .inner .content-wrap .left {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 20px;
+    }
+    .solution-section-02 .inner .content-wrap .right,
+    .solution-section-03 .inner .content-wrap .right {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .solution-section-01 {
+        padding-top: 80px;
+        padding-left: 80px;
+        height: 300px;
+    }
+    .solution-section-01 h2 {
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .solution-section-01 {
+        padding-top: 60px;
+        padding-left: 40px;
+        height: 250px;
+    }
+    .solution-section-01 h2 {
+        margin-top: 40px;
+        font-size: 30px;
+    }
+    .solution-section-01 p {
+        font-size: 16px;
+    }
+    .solution-section-02,
+    .solution-section-03 {
+        padding: 60px 0;
+    }
+    .solution-section-02 .inner,
+    .solution-section-03 .inner {
+        padding: 0 20px;
+    }
+    .solution-section-02 .inner .content-wrap .left span,
+    .solution-section-03 .inner .content-wrap .left span {
+        font-size: 14px;
+    }
+    .solution-section-02 .inner .content-wrap .left h3,
+    .solution-section-03 .inner .content-wrap .left h3 {
+        font-size: 24px;
+    }
+    .solution-section-02 .inner .content-wrap .right .content-box,
+    .solution-section-03 .inner .content-wrap .right .content-box {
+        width: 50%;
+        height: auto;
+        padding: 10px;
+    }
+    .solution-section-02 .inner .content-wrap .right .content-box .description .title,
+    .solution-section-03 .inner .content-wrap .right .content-box .description .title {
+        font-size: 14px;
+    }
+    .solution-section-02 .inner .content-wrap .right .content-box .description p,
+    .solution-section-03 .inner .content-wrap .right .content-box .description p {
+        font-size: 12px;
+    }
+
+}

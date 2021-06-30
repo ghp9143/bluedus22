@@ -1,0 +1,60 @@
+/* NotoSansKR-Black */
+@font-face {
+    font-family: "NotoSansKR-Black";
+    src:url("../font/NotoSansKR-Black.otf");
+}
+/* NotoSansKR-Bold */
+@font-face {
+    font-family: "NotoSansKR-Bold";
+    src:url("../font/NotoSansKR-Bold.otf");
+}
+/* NotoSansKR-Light */
+@font-face {
+    font-family: "NotoSansKR-Light";
+    src:url("../font/NotoSansKR-Light.otf");
+}
+/* NotoSansKR-Medium */
+@font-face {
+    font-family: "NotoSansKR-Medium";
+    src:url("../font/NotoSansKR-Medium.otf");
+}
+/* NotoSansKR-Regular */
+@font-face {
+    font-family: "NotoSansKR-Regular";
+    src:url("../font/NotoSansKR-Regular.otf");
+}
+/* NotoSansKR-Thin */
+@font-face {
+    font-family: "NotoSansKR-Thin";
+    src:url("../font/NotoSansKR-Thin.otf");
+}
+/* Roboto-Black */
+@font-face {
+    font-family: "Roboto-Black";
+    src:url("../font/Roboto-Black.ttf");
+}
+/* Roboto-Bold */
+@font-face {
+    font-family: "Roboto-Bold";
+    src:url("../font/Roboto-Bold.ttf");
+}
+/* Roboto-Light */
+@font-face {
+    font-family: "Roboto-Light";
+    src:url("../font/Roboto-Light.ttf");
+}
+/* Roboto-Medium */
+@font-face {
+    font-family: "Roboto-Medium";
+    src:url("../font/Roboto-Medium.ttf");
+}
+/* Roboto-Regular */
+@font-face {
+    font-family: "Roboto-Regular";
+    src:url("../font/Roboto-Regular.ttf");
+}
+/* Roboto-Thin */
+@font-face {
+    font-family: "Roboto-Thin";
+    src:url("../font/Roboto-Thin.ttf");
+}

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLUEDUS</title>
+    <link rel="stylesheet" href="./statics/style/css/app.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="./statics/js/jquery-3.6.0.min.js"></script>
+    <script src="./statics/js/three.js"></script>
+    <script src="./statics/js/owl.carousel.min.js"></script>
+    <script src="./statics/js/app.js" defer></script>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <a href="./index.html" class="logo">
+                <h1>BLUEDUS</h1>
+            </a>
+            <nav>
+                <ul class="depth1">
+                    <li>
+                        <a href="./index.html">홈</a>
+                    </li>
+                    <li>
+                        <a href="./introduce.html">회사소개</a>
+                        <ul class="depth2">
+                            <li>
+                                <a href="./introduce.html#ceo"><span>인사말</span></a>
+                            </li>
+                            <li>
+                                <a href="./introduce.html#vision"><span>비전</span></a>
+                            </li>
+                            <li>
+                                <a href="./introduce.html#business"><span>사업</span></a>
+                            </li>
+                            <li>
+                                <a href="./introduce.html#history"><span>연혁</span></a>
+                            </li>
+                            <li>
+                                <a href="./introduce.html#companyStructure"><span>조직도</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./solution.html">IT 솔루션</a>
+                        <ul class="depth2">
+                            <li>
+                                <a href="./solution.html#security"><span>보안</span></a>
+                            </li>
+                            <li>
+                                <a href="./solution.html#solution"><span>솔루션</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./recruit.html">채용소개</a>
+                        <ul class="depth2">
+                            <li>
+                                <a href="./recruit.html#recruit"><span>인재상</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./contact.html">컨택트</a>
+                        <ul class="depth2">
+                            <li>
+                                <a href="./contact.html#contact"><span>Contact</span></a>
+                            </li>
+                            <li>
+                                <a href="./contact.html#map"><span>찾아오시는 길</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="util">
+                <ul>
+                    <li>
+                        <a href="javascript:void(0);" class="button-change-lang active">KOR</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="button-change-lang">ENG</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="toggle-btn-wrap">
+                <span class="toggle-btn">
+                    <i class="ri-align-right"></i>
+                    <i class="ri-close-fill display-none"></i>
+                </span>
+            </div>
+            <div class="toggle-nav">
+                <div class="mob-nav">
+                    <ul class="depth1">
+                        <li>
+                            <a href="./index.html">홈</a>
+                        </li>
+                        <li>
+                            <a href="./introduce.html">회사소개</a>
+                            <ul class="depth2">
+                                <li>
+                                    <a href="./introduce.html#ceo"><span>인사말</span></a>
+                                </li>
+                                <li>
+                                    <a href="./introduce.html#vision"><span>비전</span></a>
+                                </li>
+                                <li>
+                                    <a href="./introduce.html#business"><span>사업</span></a>
+                                </li>
+                                <li>
+                                    <a href="./introduce.html#history"><span>연혁</span></a>
+                                </li>
+                                <li>
+                                    <a href="./introduce.html#companyStructure"><span>조직도</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./solution.html">IT 솔루션</a>
+                            <ul class="depth2">
+                                <li>
+                                    <a href="./solution.html#security"><span>보안</span></a>
+                                </li>
+                                <li>
+                                    <a href="./solution.html#solution"><span>솔루션</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./recruit.html">채용소개</a>
+                            <ul class="depth2">
+                                <li>
+                                    <a href="./recruit.html#recruit"><span>인재상</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./contact.html">컨택트</a>
+                            <ul class="depth2">
+                                <li>
+                                    <a href="./contact.html#contact"><span>Contact</span></a>
+                                </li>
+                                <li>
+                                    <a href="./contact.html#map"><span>찾아오시는 길</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <section class="introduce-section-01">
+
+        </section>
+        <section id="ceo" class="introduce-section introduce-section-06">
+            <div class="inner">
+                <h2>CEO 인사말</h2>
+                <p class="description">블루더스는 이제 시작하는 기업이 아닌 항상 성장하는 기업이자 최상의 글로벌 비즈니스 파트너입니다.</p>
+                <div class="content-box">
+                    <div class="left">
+                        <div class="img-box">
+                            <img src="statics/visual/images/bluedus-panel.png">
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="text-box">
+                            인공지능(AI), 사물인터넷(IoT), 로봇기술 등이 융합된 지능정보기술이 제조업, 서비스업을 비롯한 사회 전반에 침투하면서 점점 지능화되는 4차 산업혁명이 본격적으로 시작됐습니다.<br>
+                            (주)블루더스는 미래의 개인지능혁명사회에서 로봇과 AI가 생산할 수 없는 인간만이 공감할 수 있고 교류할 수 있는 지능과 문화가 창조될 수 있는 그러한 새로운 개념의 일자리를 개인 스스로 찾을 수 있도록 도움을 주기 위해 태어났습니다.<br>
+                            이것이 우리가 우려하는 노동의 종말이 아닌 진정 노동으로부터의 해방이 될 것이고 그러한 문화를 형상하는데 ㈜블루더스는 끊임 없이 노력할 것입니다. 
+                            <strong>블루더스 대표 윤범석</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="vision" class="introduce-section introduce-section-02">
+            <div class="inner">
+                <h2>VISION</h2>
+                <p class="description">블루더스는 이제 시작하는 기업이 아닌 항상 성장하는 기업이자 최상의 글로벌 비즈니스 파트너입니다.</p>
+                <div class="content-box-wrap clearfix">
+                    <div class="content-box">
+                        <div class="content-box-inner">
+                            <div class="img-box">
+                                <img src="./statics/visual/images/people-icon-01.png" alt="">
+                            </div>
+                            <strong>PEOPLE</strong>
+                            사람중심 문화
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="content-box-inner">
+                            <div class="img-box">
+                                <img src="./statics/visual/images/respect-icon-01.png" alt="">
+                            </div>
+                            <strong>RESPECT</strong>
+                            고객존중
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="content-box-inner">
+                            <div class="img-box">
+                                <img src="./statics/visual/images/mirae-icon-01.png" alt="">
+                            </div>
+                            <strong>VALUE</strong>
+                            미래가치 창출
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="content-box-inner">
+                            <div class="img-box">
+                                <img src="./statics/visual/images/challenge-icon-01.png" alt="">
+                            </div>
+                            <strong>CHALLENGE</strong>
+                            도전정신
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="business" class="introduce-section introduce-section-03">
+            <div class="inner">
+                <h2>BUSINESS</h2>
+                <p class="description">블루더스는 다양한 IT 솔루션 구축 경험과 특히 해외사업 개발 및 중추적 수행능력을 가지고 있는 기업입니다.</p>
+                <div class="content-box-wrap">
+                    <div class="content-box">
+                        <div class="content-box-inner">
+                            <div class="img-box">
+                                <img src="./statics/visual/images/solution-icon-01.png" alt="">
+                            </div>
+                            <strong>SOLUTION</strong>
+                            솔루션 구축
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="content-box-inner">
+                            <div class="img-box">
+                                <img src="./statics/visual/images/consulting-icon-01.png" alt="">
+                            </div>
+                            <strong>GLOBAL</strong>
+                            해외 사업
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="content-box-inner">
+                            <div class="img-box">
+                                <img src="./statics/visual/images/marketing-icon-01.png" alt="">
+                            </div>
+                            <strong>MARKETING</strong>
+                            마케팅 자료 구축
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="content-box-inner">
+                            <div class="img-box">
+                                <img src="./statics/visual/images/system-icon-01.png" alt="">
+                            </div>
+                            <strong>SYSTEM INTEGRATION</strong>
+                            시스템 통합 및 구축
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="history" class="introduce-section introduce-section-04">
+            <div class="inner">
+                <h2>HISTORY</h2>
+                <p class="description">해외사업 개발 및 컨설팅 경험과 노하우를 기반으로<br>글로벌 비즈니스 파트너로 새롭게 도약할 미래를 고객 사와 함께
+                    하고자 합니다. </p>
+                <div class="content-box-wrap clearfix">
+                    <div class="content-box">
+                        <div class="content-box-inner">
+                            <p class="year">2017</p>
+                            <strong>호피엔스 설립</strong>
+                            <ul>
+                                <li><span>01</span> 호피엔스 설립</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="content-box-inner">
+                            <p class="year">2018</p>
+                            <strong>사업 기초 형성</strong>
+                            <ul>
+                                <li><span>01</span> 신호탄 액션 크라우드 서비스 런칭 및 운영</li>
+                                <li><span>09</span> (주)호피엔스에서 (주)블루더스로 사명 변경</li>
+                                <li><span>10</span> 트레져아일 셀렉티 앱</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="content-box-inner">
+                            <p class="year">2019</p>
+                            <strong>글로벌 비즈니스<br>협력사업 확대</strong>
+                            <ul>
+                                <li><span>02</span> 에스씨엘 계량기 원격 검침 개발</li>
+                                <li><span>09</span> 한국정보인증 해외 PKI 서비스</li>
+                                <li><span>10</span> 네이버 시스템 개발 협력 파트너십 구축</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="content-box-inner">
+                            <p class="year">2020</p>
+                            <strong>글로벌 비즈니스<br>파트너 도약</strong>
+                            <ul>
+                                <li><span>03</span> 한국정보인증 해외 PKI 서비스(르완다)</li>
+                                <li><span>06</span> 한국정보인증 해외 PKI 서비스(모리셔스)</li>
+                                <li><span>07</span> 자율주행차량을 위한 V2X 서비스 통합 보안 기술개발</li>
+                                <li><span>11</span> SSL 고도화 개발</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="content-box-inner">
+                            <p class="year">2021</p>
+                            <strong>글로벌 비즈니스<br>파트너 성장</strong>
+                            <ul>
+                                <li><span>04</span> 자율주행차량을 위한 V2X 서비스 통합 보안 기술개발 고도화</li>
+                                <li><span>07</span> 모잠비크 도로안전 시범개선 및 역량강화 사업</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="companyStructure" class="introduce-section introduce-section-05">
+            <div class="inner">
+                <h2>COMPANY STRUCTURE</h2>
+                <p class="description">블루더스는 이제 시작하는 기업이 아닌 항상 성장하는 기업이자 최상의 글로벌 비즈니스 파트너입니다.</p>
+                <div class="organization">
+                    <div class="top">
+                        <div class="ceo-box">
+                            대표이사 윤범석
+                        </div>
+                        <div class="operation-box">
+                            경영지원부
+                        </div>
+                    </div>
+                    <div class="middle">
+
+                    </div>
+                    <div class="bottom clearfix">
+                        <div class="laboratory-box">
+                            기업부설연구소
+                        </div>
+                        <div class="global-box">
+                            해외사업부
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <p class="address">
+                본사 : 서울특별시 마포구 용강동 토정로 265-7 공간찬넬빌딩 <br class="show-768-block">/ TEL : 02-707-1303 / FAX : 02-707-1027
+            </p>
+            <p class="copy">
+                COPYRIGHT (C) BLUEDUS INC. ALL RIGHTS RESERVED
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLUEDUS</title>
+    <link rel="stylesheet" href="./statics/style/css/app.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="./statics/js/jquery-3.6.0.min.js"></script>
+    <script src="./statics/js/three.js"></script>
+    <script src="./statics/js/owl.carousel.min.js"></script>
+    <script src="./statics/js/app.js" defer></script>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <a href="./index.html" class="logo">
+                <h1>BLUEDUS</h1>
+            </a>
+            <nav>
+                <ul class="depth1">
+                    <li>
+                        <a href="./index.html">홈</a>
+                    </li>
+                    <li>
+                        <a href="./introduce.html">회사소개</a>
+                        <ul class="depth2">
+                            <li>
+                                <a href="./introduce.html#ceo"><span>인사말</span></a>
+                            </li>
+                            <li>
+                                <a href="./introduce.html#vision"><span>비전</span></a>
+                            </li>
+                            <li>
+                                <a href="./introduce.html#business"><span>사업</span></a>
+                            </li>
+                            <li>
+                                <a href="./introduce.html#history"><span>연혁</span></a>
+                            </li>
+                            <li>
+                                <a href="./introduce.html#companyStructure"><span>조직도</span></a>
+                            </li>
+                        </ul> 
+                    </li>
+                    <li>
+                        <a href="./solution.html">IT 솔루션</a>
+                        <ul class="depth2">
+                            <li>
+                                <a href="./solution.html#security"><span>보안</span></a>
+                            </li>
+                            <li>
+                                <a href="./solution.html#solution"><span>솔루션</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./recruit.html">채용</a>
+                        <ul class="depth2">
+                            <li>
+                                <a href="./recruit.html#recruit"><span>인재상</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./contact.html">컨택트</a>
+                        <ul class="depth2">
+                            <li>
+                                <a href="./contact.html#contact"><span>Contact</span></a>
+                            </li>
+                            <li>
+                                <a href="./contact.html#map"><span>찾아오시는 길</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="util">
+                <ul>
+                    <li>
+                        <a href="javascript:void(0);" class="button-change-lang active">KOR</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="button-change-lang">ENG</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="toggle-btn-wrap">
+                <span class="toggle-btn">
+                    <i class="ri-align-right"></i>
+                    <i class="ri-close-fill display-none"></i>
+                </span>
+            </div>
+            <div class="toggle-nav">
+                <div class="mob-nav">
+                    <ul class="depth1">
+                        <li>
+                            <a href="./index.html">홈</a>
+                        </li>
+                        <li>
+                            <a href="./introduce.html">회사소개</a>
+                            <ul class="depth2">
+                                <li>
+                                    <a href="./introduce.html#ceo"><span>인사말</span></a>
+                                </li>
+                                <li>
+                                    <a href="./introduce.html#vision"><span>비전</span></a>
+                                </li>
+                                <li>
+                                    <a href="./introduce.html#business"><span>사업</span></a>
+                                </li>
+                                <li>
+                                    <a href="./introduce.html#history"><span>연혁</span></a>
+                                </li>
+                                <li>
+                                    <a href="./introduce.html#companyStructure"><span>조직도</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./solution.html">IT 솔루션</a>
+                            <ul class="depth2">
+                                <li>
+                                    <a href="./solution.html#security"><span>보안</span></a>
+                                </li>
+                                <li>
+                                    <a href="./solution.html#solution"><span>솔루션</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./recruit.html">채용</a>
+                            <ul class="depth2">
+                                <li>
+                                    <a href="./recruit.html#recruit"><span>인재상</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./contact.html">컨택트</a>
+                            <ul class="depth2">
+                                <li>
+                                    <a href="./contact.html#contact"><span>Contact</span></a>
+                                </li>
+                                <li>
+                                    <a href="./contact.html#map"><span>찾아오시는 길</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <section class="main-section-01">
+            <div class="main-bg-left">
+                <img src="statics/visual/images/main-bg-left.png" alt="">
+            </div>
+            <div class="main-bg-right">
+                <img src="statics/visual/images/main-bg-right.png" alt="">
+            </div>
+            <div class="main-paragraph-bg">
+                <div class="main-paragraph">
+                    <!-- <h2>INSIGHT, CREATE, LEAD</h2> -->
+                    <h2 class="roboto">Helping Business<br>Market Smarter</h2>
+                    <p>
+                        해외사업 O/F 서비스와 IT / IT Security 컨설팅 사업 확대,<br>
+                        그리고 새로운 비즈니스 모델 구축을 통해<br>
+                        최상의 글로벌 비즈니스 파트너로 자리매김할 것입니다.<br>
+                    </p>
+                </div>
+            </div>
+            <div class="globe"></div>
+        </section>
+        <section class="section main-section-02">
+            <div class="inner">
+                <div class="left">
+                    
+                </div>
+                <div class="right">
+                    <h2>WE ARE <strong>BLUED<span>US</span></strong></h2>
+                    <p>블루더스는 다양한 해외사업 경험과 컨설팅 경험이 풍부한 인력을 중심으로<br>다양한 맞춤 서비스를 제공합니다.</p>
+                    <div class="clearfix">
+                        <div class="skill-list-wrap bg">
+                            <div class="img-box"></div>
+                        </div>
+                        <div class="skill-list-wrap">
+                            <div class="skill-list list-01">
+                                <div class="icon-box">
+                                    <i class="ri-apps-fill"></i>
+                                </div>
+                                <div class="skill-box">
+                                    <h3 class="tit">ICT 융합 응용소프트웨어 및 시스템 통합</h3>
+                                    <ul>
+                                        <li>자율주행 통합 보안시스템 구축</li>
+                                        <li>교통안전 모니터링 시스템 구축</li>
+                                        <li>개인의료정보(PHR) 빅데이터 플랫폼 구축</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-list-wrap">
+                            <div class="skill-list list-01">
+                                <div class="icon-box">
+                                    <i class="ri-flight-takeoff-line"></i>
+                                </div>
+                                <div class="skill-box">
+                                    <h3 class="tit">해외 사업 O/F 서비스</h3>
+                                    <ul>
+                                        <li>해외사업 개발 및 컨설팅 지원<br>(한국정보인증 해외 PKI 서비스 구축)</li>
+                                        <li>해외사업수행 대행 및 지원</li>
+                                        <li>해외마케팅 활동 지원</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-list-wrap">
+                            <div class="skill-list list-01">
+                                <div class="icon-box">
+                                    <i class="ri-global-fill"></i>
+                                </div>
+                                <div class="skill-box">
+                                    <h3 class="tit">글로벌 비즈니스 / IT 보안 컨설팅 서비스</h3>
+                                    <ul>
+                                        <li>해외 BPR / ISP 컨설팅</li>
+                                        <li>IT Security / IT Comliance 컨설팅</li>
+                                        <li>국제협력사업 개발 컨설팅 (ODA / EDCF / WB)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section main-section-03">
+            <div class="inner">
+                <h2>국제사업</h2>
+                <div class="main-carousel owl-carousel owl-theme">
+                    <div class="item"><img src="./statics/visual/images/Belarus.png" alt="001">
+                        <div class="short-description">
+                            <div class="tit">벨라루스 보안교육</div>
+                            <p>벨라루스 현지 보안교육</p>
+                        </div>
+                    </div>
+                    <div class="item"><img src="./statics/visual/images/rwanda.png" alt="002">
+                        <div class="short-description">
+                            <div class="tit">르완다 보안 인증 시스템 개발</div>
+                            <p>르완다 현지 보안 인증 시스템 구축</p>
+                        </div>
+                    </div>
+                    <div class="item"><img src="./statics/visual/images/mauritius.png" alt="003">
+                        <div class="short-description">
+                            <div class="tit">모리셔스 보안 인증 시스템 개발</div>
+                            <p>모리셔스 현지 보안 인증 시스템 구축</p>
+                        </div>
+                    </div>
+                    <div class="item"><img src="./statics/visual/images/mozambique.png" alt="004">
+                        <div class="short-description">
+                            <div class="tit">모잠비크 인증 시스템 개발</div>
+                            <p>모잠비크 현지 인증 시스템 구축</p>
+                        </div>
+                    </div>
+                    <div class="item"><img src="./statics/visual/images/djibouti.png" alt="005">
+                        <div class="short-description">
+                            <div class="tit">지부티 보안 인증 시스템 개발</div>
+                            <p>지부티 현지 보안 인증 시스템 구축</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="description-box">
+                    <h3>블루더스는</h3>
+                    <p>
+                        다양한 해외사업 경험과 컨설팅 경험을 가진 인력을 중심으로<br>
+                        해외 사업 개발/수행 및 지원을 제공하고 있으며<br>
+                        IT 솔루션, IT 보안 및 Compliance 컨설팅과 개발 통합 서비스를 제공합니다.<br>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="section main-section-04">
+            <div class="inner">
+                <h2>국내사업</h2>
+                <div class="main-carousel owl-carousel owl-theme">
+                    <div class="item"><img src="./statics/visual/images/sectigo.png" alt="001">
+                        <div class="short-description">
+                            <div class="tit">KICA SSL Sectigo</div>
+                            <p>한국정보인증 SSL 판매 사이트</p>
+                        </div>
+                    </div>
+                    <div class="item"><img src="./statics/visual/images/automobile.png" alt="002">
+                        <div class="short-description">
+                            <div class="tit">자율주행 솔루션 개발</div>
+                            <p>한국정보인증 자율주행 시스템 개발</p>
+                        </div>
+                    </div>
+                    <div class="item"><img src="./statics/visual/images/mydata.png" alt="003">
+                        <div class="short-description">
+                            <div class="tit">My Data 서비스 개발</div>
+                            <p>한국정보인증 My Data 서비스</p>
+                        </div>
+                    </div>
+                    <div class="item"><img src="./statics/visual/images/shinhotan.png" alt="004">
+                        <div class="short-description">
+                            <div class="tit">신호탄 프로젝트</div>
+                            <p>신호탄 펀드 프로젝트 개발</p>
+                        </div>
+                    </div>
+                    <div class="item"><img src="./statics/visual/images/ongoing.jpg" alt="004">
+                        <div class="short-description">
+                            <div class="tit">자체 플랫폼 개발</div>
+                            <p>개발중입니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="description-box">
+                    <h3>블루더스는</h3>
+                    <p>
+                        IT 전문기업에서의 다양한 솔루션 구축 경험을 바탕으로<br>
+                        새로운 솔루션 구축 제안, 기업 및 개인사업자의 마케팅 활동 지원,<br>
+                        자체 신규 플랫폼 서비스 구축 및 비즈니스 모델 수립을 통한<br>
+                        미래가치를 추구합니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p class="address">
+                본사 : 서울특별시 마포구 용강동 토정로 265-7 공간찬넬빌딩 <br class="show-768-block">/ TEL : 02-707-1303 / FAX : 02-707-1027
+            </p>
+            <p class="copy">
+                COPYRIGHT (C) BLUEDUS INC. ALL RIGHTS RESERVED
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

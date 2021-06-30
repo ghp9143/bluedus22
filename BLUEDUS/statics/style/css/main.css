@@ -1,0 +1,412 @@
+@charset "utf-8";
+
+/* section-01 */
+.main-section-01 {
+    padding-top: 100px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.main-section-01 .main-paragraph-bg {
+    padding-left: 400px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.main-section-01 .main-bg-left {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.main-section-01 .main-bg-right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.main-section-01 .main-paragraph-bg .main-paragraph {
+    position: absolute;
+    right: -360px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.main-section-01 .main-paragraph-bg .main-paragraph h2 {
+    font-size: 46px;
+    color: #333;
+    line-height: 1.43em;
+    font-weight: 600;
+}
+.main-section-01 .main-paragraph-bg .main-paragraph p {
+    text-align: left;
+    margin-top: 20px;
+    line-height: 1.43em;
+    font-size: 18px;
+}
+.main-section-01 .globe {
+    position: relative;    
+    z-index: 2;
+}
+
+/* section 공통 */
+.section {
+    padding: 100px 0;
+}
+.section .inner {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.section .inner h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+}
+/* main-section-02, main-section-04 */
+.main-section-02 {
+    background-color: #f4f7fa;
+}
+.main-section-02 .inner {
+    display: flex;
+}
+.main-section-02 .inner .left {
+    width: 50%;
+    height: 600px;
+    background: url(../../visual/images/sample05.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.main-section-02 .inner .right {
+    width: 50%;
+    padding-left: 50px;
+}
+.main-section-02 .inner .right h2 {
+    text-align: left;
+    font-size: 42px;
+    color: #333;
+}
+.main-section-02 .inner .right h2 strong {
+    color: #049dbf;
+}
+.main-section-02 .inner .right h2 strong span {
+    color: #f2c84b;
+}
+.main-section-02 .inner .right p {
+    margin-top: 30px;
+    line-height: 1.7em;
+}
+.main-section-02 .inner .right .right-1200-bg {
+    display: none;
+}
+.main-section-02 .inner .right .skill-list-wrap {
+    margin-top: 40px;
+}
+.main-section-02 .inner .right .skill-list-wrap .skill-list {
+    display: flex;
+}
+.main-section-02 .inner .right .skill-list-wrap .skill-list .icon-box {
+    width: 55px;
+    height: 55px;
+    background-color: #f2c84b;
+    color: #fff;
+    text-align: center;
+    line-height: 55px;
+    font-size: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.main-section-02 .inner .right .skill-list-wrap .skill-list .icon-box i {
+    font-size: 24px;
+}
+.main-section-02 .inner .right .skill-list-wrap .skill-list .skill-box {
+    margin-left: 20px;
+}
+.main-section-02 .inner .right .skill-list-wrap .skill-list .skill-box .tit {
+    color: #333;
+    margin-bottom: 12px;
+}
+.main-section-02 .inner .right .skill-list-wrap .skill-list .skill-box ul li {
+    list-style: disc;
+    margin-left: 20px;
+    font-size: 14px;
+    margin-top: 5px;
+    line-height: 1.43em;
+}
+.main-section-04 {
+    background-color: #f4f7fa;
+}
+/* main-carousel */
+.main-carousel {
+    padding: 80px 0 50px;
+}
+.main-carousel .item {
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.main-carousel .item img {
+    height: 100%;
+    display: block;
+    transition: all 0.4s ease-out;
+}
+.main-carousel .item:hover img {
+    transform: scale(1.1);
+}
+.main-carousel .item .short-description {
+    position: absolute;
+    height: 80px;
+    bottom: -80px;
+    padding: 15px 0 0 15px;
+    left: 0;
+    right: 0;
+    transition-duration: 0.34s;
+    background-color: rgba(0,0,0,.4);
+}
+.main-carousel .item:hover .short-description {
+    bottom: 0;
+}
+.main-carousel .item .short-description .tit {
+    color: #fff;
+    text-shadow:1px 1px 1px rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+}
+.main-carousel .item .short-description p {
+    color: #f7f7f7;
+    margin-bottom: 18px;
+}
+.main-carousel .item .short-description .site-link {
+    padding: 4px 24px;
+    border: 1px solid #f9f9f9;
+    color: #f9f9f9;
+    transition-duration: 0.34s;
+}
+.main-carousel .item .short-description .site-link:hover {
+    background-color: #049dbf;
+}
+.main-carousel .owl-nav {
+    display: none;
+}
+.main-carousel .owl-dots {
+    margin-top: 30px;
+    text-align: right !important;
+}
+.main-carousel .owl-dots .owl-dot.active span {
+    width: 100px;
+    background-color: #049dbf;
+}
+
+/* main-description-box */
+.description-box {
+
+}
+.description-box h3 {
+    font-size: 24px;
+    color: #333;
+}
+.description-box p {
+    margin-top: 14px;
+    line-height: 1.43em;
+}
+
+@media screen and (max-width: 1600px) {
+    .main-section-01 .main-paragraph-bg {
+        padding-left: 20%;
+    }
+    .main-section-01 .main-bg-left {
+        left: -5%;
+    }
+    .main-section-01 .main-bg-right {
+        position: absolute;
+        right: -150px;
+        bottom: 0;
+    }
+    .main-section-01 .globe {
+        right: 10%;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .main-section-01 .main-paragraph-bg {
+        padding-left: 20%;
+    }
+    .main-section-01 .main-bg-left {
+        left: -10%;
+    }
+    .main-section-01 .main-bg-right {
+        right: -250px;
+    }
+    .main-section-01 .globe {
+        right: 12%;
+    }
+    .main-section-03 .description-box,
+    .main-section-04 .description-box {
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .main-section-01 {
+        display: block;
+    }
+    .main-section-01 .main-paragraph-bg {
+        width: 100%;
+        height: 40vh;
+        padding-left: 0;
+    }
+    .main-section-01 .main-paragraph-bg .main-paragraph {
+        position: relative;
+        left: 10%;
+    }
+    .main-section-01 .main-bg-right {
+        right: -300px;
+        bottom: -30px;
+    }
+    .main-section-01 .globe {
+        width: 100%;
+        height: 60vh;
+        position: relative;
+        top: -280px;
+        right: 10%;
+    }
+    .main-section-01 {
+        padding: 40px 0;
+    }
+    .main-section-02 .inner {
+        display: block;
+    }
+    .main-section-02 .inner .left {
+        display: none;
+    }
+    .main-section-02 .inner .right {
+        width: 100%;
+        padding-left: 40px;
+    }
+    .main-section-02 .inner .right .skill-list-wrap {
+        float: left;
+        width: 50%;
+        height: 280px;
+    }
+    .main-section-02 .inner .right .skill-list-wrap:nth-child(3) {
+        height: 150px;
+    }
+    .main-section-02 .inner .right .skill-list-wrap:nth-child(4) {
+        height: 150px;
+    }
+    .main-section-02 .inner .right .skill-list-wrap.bg {
+        padding: 0 20px 20px 0;
+    }
+    .main-section-02 .inner .right .skill-list-wrap.bg .img-box {
+        height: 100%;
+        background: url(../../visual/images/sample05.jpg) 50% 50% no-repeat;
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .main-section-01 {
+        padding-top: 80px;
+    }
+    .main-section-01 .main-bg-left {
+        left: 0%;
+    }
+    .main-section-01 .main-bg-right {
+        right: -350px;
+        bottom: 0px;
+    }
+    .main-section-01 .globe {
+        top: -180px;
+        right: 30%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .main-section-01 {
+        padding-top: 60px;
+    }
+    .main-section-01 .main-bg-left {
+        left: -50px;
+    }
+    .main-section-01 .main-bg-right {
+        display: none;
+    }
+    .main-section-01 .globe {
+        top: -280px;
+        right: 58%;
+    }
+    .main-section-01 .main-paragraph-bg .main-paragraph h2 {
+        font-size: 34px;
+    }
+    .main-section-01 .main-paragraph-bg .main-paragraph p {
+        font-size: 14px;
+    }
+    .main-section-02 {
+        padding: 60px 0;
+    }
+    .main-section-02 .inner .right {
+        padding: 0 20px;
+    }
+    .main-section-02 .inner .right h2 {
+        font-size: 30px;
+    }
+    .main-section-02 .inner .right p {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .main-section-02 .inner .right .skill-list-wrap.bg {
+        display: none;
+    }
+    .main-section-02 .inner .right .skill-list-wrap {
+        float: left;
+        width: 100%;
+        height: auto;
+    }
+    .main-section-02 .inner .right .skill-list-wrap .skill-list .icon-box {
+        width: 28px;
+        height: 28px;
+        line-height: 28px;
+    }
+    .main-section-02 .inner .right .skill-list-wrap .skill-list .icon-box i {
+        font-size: 16px;
+    }
+    .main-section-02 .inner .right .skill-list-wrap .skill-list .skill-box .tit {
+        font-size: 14px;
+    }
+    .main-section-02 .inner .right .skill-list-wrap .skill-list .skill-box ul li {
+        font-size: 12px;
+    }
+    .main-section-03,
+    .main-section-04 {
+        padding: 60px 0;
+    }
+    .main-section-03 .description-box h3,
+    .main-section-04 .description-box h3 {
+        font-size: 16px;
+    }
+    .main-section-03 .description-box p,
+    .main-section-04 .description-box p {
+        font-size: 12px;
+    }
+    .main-carousel {
+        padding: 40px 0 30px;
+    }
+    .main-carousel .item .short-description {
+        bottom: 0px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .main-section-01 .main-bg-left {
+        left: -150px;
+    }
+    .main-section-01 .globe {
+        display: none;
+    }
+    .main-section-01 .main-bg-right {
+        display: block;
+        right: -681px;
+        top: -175px;
+    }
+    .main-section-01 .main-paragraph-bg .main-paragraph {
+        left: 20px;
+    }
+    .main-section-01 .main-paragraph-bg .main-paragraph h2 {
+        font-size: 24px;
+    }
+    .main-section-01 .main-paragraph-bg .main-paragraph p {
+        font-size: 14px;
+    }
+}

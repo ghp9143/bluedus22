@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+html, body {
+    height: 100%;
+    position: relative;
+    font-family: "NotoSansKR-Regular", "맑은 고딕", "Malgun Gothic", sans-serif;;
+    font-size: 16px;
+    color: #666666;
+}
+/* eng */
+.roboto {
+    font-family: "Roboto-regular";
+}
+/* color-palette */
+.blue {
+    color: #2457BD;
+}
+.blue2 {
+    color: #049dbf;
+}
+.yellow {
+    color: #EDD200;
+}
+.yellow2 {
+    color: #f2c84b;
+}
+/* clearfix */
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+/* align */
+.text-c {
+    text-align: center;
+}
+.text-r {
+    text-align: right;
+}
+.text-l {
+    text-align: left;
+}
+/* display */
+.display-block {
+    display: block !important;
+}
+.display-none {
+    display: none !important;
+}
+.show-768-block {
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .show-768-block {
+        display: block;
+    }
+}

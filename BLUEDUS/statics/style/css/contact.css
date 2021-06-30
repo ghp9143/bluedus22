@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+.contact-section-01 {
+    padding-top: 100px;
+    padding-left: 15%;
+    background: url(../../visual/images/contact01.jpg) 50% 50% no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: #fff;
+}
+.contact-section-01 h2 {
+    margin-top: 100px;
+    font-size: 36px;
+}
+.contact-section-01 p {
+    margin-top: 40px;
+    font-size: 20px;
+}
+/* contact-section 공통 */
+.contact-section {
+    padding: 100px 0;
+}
+.contact-section .inner {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.contact-section-02 .inner {
+    display: flex;
+}
+.contact-section-02 .inner .left {
+    width: 50%;
+    text-align: center;
+}
+.contact-section-02 .inner .left .img-box {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    box-shadow: 7px 7px 14px rgba(0,0,0,0.1);
+    padding-top: 45px;
+    margin: 0 auto;
+}
+.contact-section-02 .inner .left .img-box img {
+    width: 100%;
+}
+.contact-section-02 .inner .right h3 {
+    font-size: 32px;
+    color: #333;
+}
+.contact-section-02 .inner .right p {
+    margin-top: 60px;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.contact-section-02 .inner .right p strong {
+    color: #049dbf;
+    font-weight: 600;
+}
+.contact-section-03 {
+    background-color: #f4f7fa;
+}
+.contact-section-03 .inner h3 {
+    font-size: 34px;
+    text-align: center;
+    color: #333;
+}
+.contact-section-03 .inner .address {
+    font-size: 20px;
+    margin: 20px 0 60px;
+    text-align: center;
+}
+.contact-section-03 .inner img {
+    display: block;
+    width: 100%;
+}
+.contact-section-03 .inner .route {
+    padding: 60px 40px 0;
+}
+.contact-section-03 .inner .route h4 {
+    font-size: 20px;
+    color: #333;
+}
+.contact-section-03 .inner .route p {
+    margin-top: 30px;
+    font-size: 17px;
+    color: #444;
+}
+.contact-section-03 .inner .route p span {
+    display: inline-block;
+    width: 51px;
+    height: 27px;
+    margin-right: 3px;
+    line-height: 27px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+}
+.contact-section-03 .inner .route p span.purple {
+    background-color: rgb(134, 59, 134);
+}
+.contact-section-03 .inner .route p span.green {
+    background-color: #009c3d;
+}
+.contact-section-03 .inner .route p:last-child {
+    margin-top: 20px;
+    color: #666;
+}
+
+@media screen and (max-width:1200px) {
+    
+}
+
+@media screen and (max-width:1024px) {
+    .contact-section-01 {
+        padding-top: 80px;
+        padding-left: 80px;
+        height: 300px;
+    }
+    .contact-section-01 h2 {
+        margin-top: 60px;
+    }
+    .contact-section-02 .inner {
+        padding: 0 20px;
+    }
+    .contact-section-02 .inner .left .img-box {
+        width: 300px;
+        height: 300px;
+    }
+    .contact-section-02 .inner .right h3 {
+        font-size: 26px;
+    }
+    .contact-section-02 .inner .right p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .contact-section {
+        padding: 60px 0;
+    }
+    .contact-section-01 {
+        padding-top: 60px;
+        padding-left: 40px;
+        height: 250px;
+    }
+    .contact-section-01 h2 {
+        margin-top: 40px;
+        font-size: 30px;
+    }
+    .contact-section-01 p {
+        font-size: 16px;
+    }
+    .contact-section-02 .inner .left .img-box {
+        width: 250px;
+        height: 250px;
+    }
+    .contact-section-02 .inner .right h3 {
+        font-size: 18px;
+    }
+    .contact-section-02 .inner .right p {
+        font-size: 14px;
+    }
+    .contact-section-03 .inner h3 {
+        font-size: 26px;
+    }
+    .contact-section-03 .inner .address {
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+    .contact-section-03 .inner .route {
+        padding: 50px 20px 0;
+    }
+    .contact-section-03 .inner .route h4 {
+        font-size: 16px;
+    }
+    .contact-section-03 .inner .route p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:700px) {
+    .contact-section-02 .inner {
+        display: block;
+    }
+    .contact-section-02 .inner .left {
+        width: 100%;
+    }
+    .contact-section-02 .inner .right {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .contact-section-02 .inner .right h3 {
+        text-align: center;
+    }
+    .contact-section-02 .inner .right p {
+        margin-top: 30px;
+    }
+    .contact-section-03 .inner h3 {
+        font-size: 20px;
+    }
+    .contact-section-03 .inner .address {
+        font-size: 14px;
+        margin-bottom: 50px;
+    }
+    .contact-section-03 .inner .route h4 {
+        font-size: 14px;
+    }
+    .contact-section-03 .inner .route p {
+        font-size: 12px;
+    }
+}
